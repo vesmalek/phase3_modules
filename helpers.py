@@ -11,7 +11,4 @@ def greet_user(username):
 #     - is_valid_password(password) → returns True if len >= 8, False otherwise
 
 def is_valid_password(password):
-    if len(password) >= 8:
-        return True
-    else:
-        return False
+    return len(password) >= 8

@@ -3,7 +3,8 @@
 #     a random mix of letters and digits of the given length
 #     Call it twice — once with default length, once with length=20
 
-import random, string
+import random
+import string
 
 def generate_token(length=10):
     characters = string.ascii_letters + string.digits

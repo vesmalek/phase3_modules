@@ -4,7 +4,7 @@ import json
 
 #     Create a user dict with at least 4 keys
 
-user = {'name': 'John', 'Company': 'ABC Ceramics', 'Address': "5th Str. NY", 'Country': 'Oman'}
+user = {'name': 'John', 'company': 'ABC Ceramics', 'address': "5th Str. NY", 'country': 'Oman'}
 
 #     Convert it to a JSON string and print it
 print()
